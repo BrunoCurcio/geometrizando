@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+.title {
+  color: tomato;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+.rectangle {
+  width: 80px;
+  height: 40px;
+  background: teal;
+}
+
+.art {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
